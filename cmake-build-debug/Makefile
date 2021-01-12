@@ -143,6 +143,33 @@ Codstyle/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Codstyle.dir/build.make CMakeFiles/Codstyle.dir/build
 .PHONY : Codstyle/fast
 
+WorkingWithUser.o: WorkingWithUser.cpp.o
+
+.PHONY : WorkingWithUser.o
+
+# target to build an object file
+WorkingWithUser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Codstyle.dir/build.make CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.o
+.PHONY : WorkingWithUser.cpp.o
+
+WorkingWithUser.i: WorkingWithUser.cpp.i
+
+.PHONY : WorkingWithUser.i
+
+# target to preprocess a source file
+WorkingWithUser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Codstyle.dir/build.make CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.i
+.PHONY : WorkingWithUser.cpp.i
+
+WorkingWithUser.s: WorkingWithUser.cpp.s
+
+.PHONY : WorkingWithUser.s
+
+# target to generate assembly for a file
+WorkingWithUser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Codstyle.dir/build.make CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.s
+.PHONY : WorkingWithUser.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Codstyle"
+	@echo "... WorkingWithUser.o"
+	@echo "... WorkingWithUser.i"
+	@echo "... WorkingWithUser.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
