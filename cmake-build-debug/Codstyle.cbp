@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/yurij/Documents/Sirius/Codstyle/WorkingWithUser.cpp">
+			<Option target="Codstyle"/>
+		</Unit>
+		<Unit filename="/Users/yurij/Documents/Sirius/Codstyle/hedaer.h">
+			<Option target="Codstyle"/>
+		</Unit>
 		<Unit filename="/Users/yurij/Documents/Sirius/Codstyle/main.cpp">
 			<Option target="Codstyle"/>
 		</Unit>

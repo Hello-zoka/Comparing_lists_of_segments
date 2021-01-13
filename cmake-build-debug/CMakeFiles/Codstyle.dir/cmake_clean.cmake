@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.o"
   "CMakeFiles/Codstyle.dir/main.cpp.o"
   "Codstyle"
   "Codstyle.pdb"

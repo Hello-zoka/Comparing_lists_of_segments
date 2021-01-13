@@ -94,12 +94,12 @@ clean: CMakeFiles/Codstyle.dir/clean
 CMakeFiles/Codstyle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Codstyle.dir/build.make CMakeFiles/Codstyle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Codstyle.dir/build.make CMakeFiles/Codstyle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Codstyle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Codstyle"
 .PHONY : CMakeFiles/Codstyle.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Codstyle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Codstyle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Codstyle.dir/rule
