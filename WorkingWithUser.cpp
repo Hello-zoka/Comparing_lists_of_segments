@@ -5,7 +5,7 @@
 using namespace std;
 
 
-vector<segment> ReadInput() {
+vector<segment> ReadListOfSegments() {
     int num_of_segments;
     vector<segment> list_of_nodes;
     cin >> num_of_segments;

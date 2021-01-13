@@ -143,6 +143,60 @@ Codstyle/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Codstyle.dir/build.make CMakeFiles/Codstyle.dir/build
 .PHONY : Codstyle/fast
 
+Compare.o: Compare.cpp.o
+
+.PHONY : Compare.o
+
+# target to build an object file
+Compare.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Codstyle.dir/build.make CMakeFiles/Codstyle.dir/Compare.cpp.o
+.PHONY : Compare.cpp.o
+
+Compare.i: Compare.cpp.i
+
+.PHONY : Compare.i
+
+# target to preprocess a source file
+Compare.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Codstyle.dir/build.make CMakeFiles/Codstyle.dir/Compare.cpp.i
+.PHONY : Compare.cpp.i
+
+Compare.s: Compare.cpp.s
+
+.PHONY : Compare.s
+
+# target to generate assembly for a file
+Compare.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Codstyle.dir/build.make CMakeFiles/Codstyle.dir/Compare.cpp.s
+.PHONY : Compare.cpp.s
+
+Relaxing.o: Relaxing.cpp.o
+
+.PHONY : Relaxing.o
+
+# target to build an object file
+Relaxing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Codstyle.dir/build.make CMakeFiles/Codstyle.dir/Relaxing.cpp.o
+.PHONY : Relaxing.cpp.o
+
+Relaxing.i: Relaxing.cpp.i
+
+.PHONY : Relaxing.i
+
+# target to preprocess a source file
+Relaxing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Codstyle.dir/build.make CMakeFiles/Codstyle.dir/Relaxing.cpp.i
+.PHONY : Relaxing.cpp.i
+
+Relaxing.s: Relaxing.cpp.s
+
+.PHONY : Relaxing.s
+
+# target to generate assembly for a file
+Relaxing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Codstyle.dir/build.make CMakeFiles/Codstyle.dir/Relaxing.cpp.s
+.PHONY : Relaxing.cpp.s
+
 WorkingWithUser.o: WorkingWithUser.cpp.o
 
 .PHONY : WorkingWithUser.o
@@ -206,6 +260,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Codstyle"
+	@echo "... Compare.o"
+	@echo "... Compare.i"
+	@echo "... Compare.s"
+	@echo "... Relaxing.o"
+	@echo "... Relaxing.i"
+	@echo "... Relaxing.s"
 	@echo "... WorkingWithUser.o"
 	@echo "... WorkingWithUser.i"
 	@echo "... WorkingWithUser.s"

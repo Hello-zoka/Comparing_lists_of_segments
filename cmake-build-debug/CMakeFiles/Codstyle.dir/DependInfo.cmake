@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/yurij/Documents/Sirius/Codstyle/Compare.cpp" "/Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles/Codstyle.dir/Compare.cpp.o"
+  "/Users/yurij/Documents/Sirius/Codstyle/Relaxing.cpp" "/Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles/Codstyle.dir/Relaxing.cpp.o"
   "/Users/yurij/Documents/Sirius/Codstyle/WorkingWithUser.cpp" "/Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.o"
   "/Users/yurij/Documents/Sirius/Codstyle/main.cpp" "/Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles/Codstyle.dir/main.cpp.o"
   )

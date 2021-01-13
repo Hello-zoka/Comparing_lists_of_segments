@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/yurij/Documents/Sirius/Codstyle/Compare.cpp">
+			<Option target="Codstyle"/>
+		</Unit>
+		<Unit filename="/Users/yurij/Documents/Sirius/Codstyle/Relaxing.cpp">
+			<Option target="Codstyle"/>
+		</Unit>
 		<Unit filename="/Users/yurij/Documents/Sirius/Codstyle/WorkingWithUser.cpp">
 			<Option target="Codstyle"/>
 		</Unit>
