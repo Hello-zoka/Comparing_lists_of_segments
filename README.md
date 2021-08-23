@@ -25,3 +25,4 @@ Asymptotics of thirs stage is O(n^2), but we can solve it by O(n*logn), using so
 
 BUT I have no time for these not easy optimizations
 Also we can add supporting of float coordinates
+
