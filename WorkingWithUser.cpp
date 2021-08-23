@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "hedaer.h"
+#include "header.h"
 
 using namespace std;
 
@@ -9,7 +9,7 @@ vector<segment> ReadListOfSegments() {
     int num_of_segments;
     vector<segment> list_of_nodes;
     cin >> num_of_segments;
-    for (int i = 0; i < num_of_segments; i++) {
+    for (size_t i = 0; i < num_of_segments; i++) {
         int x1, y1, x2, y2;
         cin >> x1 >> y1 >> x2 >> y2;
         list_of_nodes.push_back({{x1, y1},

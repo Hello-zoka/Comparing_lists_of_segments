@@ -2,8 +2,6 @@
 // Created by Yurij Zaytsev on 12.01.2021.
 //
 
-#ifndef CODSTYLE_HEDAER_H
-
 #include <vector>
 #include <iostream>
 
@@ -16,7 +14,7 @@ struct point {
     }
 
     void Print() {
-        std::cerr << x << " " << y << " ";
+        std::cout << x << " " << y << " ";
     }
 };
 
@@ -29,9 +27,12 @@ struct segment {
     }
 
     void Print() {
+        std::cout << "Segment:\n";
+        std::cout << "First end of segment: ";
         first_point.Print();
+        std::cout << "Second end of segment: ";
         second_point.Print();
-        std::cerr << "\n";
+        std::cout << "\n";
     }
 };
 
@@ -47,6 +48,3 @@ bool NormalizeTesting();
 
 segment Merge(segment, segment);
 
-#define CODSTYLE_HEDAER_H
-
-#endif //CODSTYLE_HEDAER_H

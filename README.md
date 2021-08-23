@@ -1,28 +1,30 @@
-Hey, my name is Yurij Zajcev, I'm from Saint-Petersburg. 
+_**Hello! My name is Yurij Zajcev, I'm from Saint-Petersburg, Russia.**_ 
 
-First, I want to apologize for my terrible English, but I need to practice somewhere ;)
-You can find here ny solution of problem: "We have two sets of segments(with ends in integer coordinates). It must be said whether the sets of points covered by the line segments are identical or not"
+First of all, I want to apologize for my terrible English, but I need to practice somewhere ;)
 
-In Main fuction you can find place to insert name of input file. 
+You can find here my solution of problem: **"We have two sets of segments(with ends in integer coordinates). It must be said whether the sets of points covered by the line segments are identical or not"**
 
-Format of input file is:
-First line contains one ineger n - number of segments in first set
-Then n lines with 4 inegers in each of them: x1 y1 x2 y2 - coordinates of current segment's ends
-Next line contains one ineger m - number of segments in second set
-Then m lines with 4 inegers in each of them: x1 y1 x2 y2 - coordinates of current segment's ends
-(example of input file you alse can find in repository)
+In Main function you can find place to insert name of input file. 
 
-My solution can be described by the following plan:
+_**Format of input file is**:_
+
+1) First line contains one integer `N`- number of segments in first set.
+2) Then `N` lines with 4 integers in each of them: `x1`, `y1`, `x2`, `y2` - coordinates of current segment's ends.
+3) Next line contains one integer `M` - number of segments in second set.
+4) Then `M` lines with 4 integers in each of them: `x1`, `y1`, `x2`, `y2` - coordinates of current segment's ends.
+   
+(Example of input file you also can find in repository)
+
+**_My solution can be described by the following plan:_**
 1) Reading Input, using function ReadListOfSegments()
 2) Normalizing (merging of crossing segments) segments using function Normalize(list of segments):
-  a)  Trying to merge some segments as long as possible ("greedy" solve of course can be used here), using function Relaxing(), which returns true, if some segmets were merged:
-    aa) Iterate over a couple of segments and checking if we can merge them, using function NeedMerging, which checks if two segments are lying on one line and crossing.
+   1) Trying to merge some segments as long as possible ("greedy" solve of course can be used here), using function Relaxing(), which returns true, if some segments were merged:
+   2) Iterate over a couple of segments and checking if we can merge them, using function NeedMerging, which checks if two segments are lying on one line and crossing.
 3) Comparing two lists of segments, using Compare function
 
-This solution is not very fast ;( 
-Asymptotics of second stage is O(n^3), but we can solve it by O(n*logn), using sorting segments by tan and solving standart problem of minimum covering segmets for each tan by O(n)
-Asymptotics of thirs stage is O(n^2), but we can solve it by O(n*logn), using sorting of list of segmetns
+This solution is not very fast ;(
 
-BUT I have no time for these not easy optimizations
-Also we can add supporting of float coordinates
+Asymptotics of second stage is O(`N ^ 3`), but we can solve it by O(`NlogN`), using sorting segments by tangent and solving standard problem of minimum covering segments for each tangent by O(`N`).
+
+Asymptotics of third stage is O(`N ^ 2`), but we can solve it by O(`NlogN`), using sorting of list of segments.
 

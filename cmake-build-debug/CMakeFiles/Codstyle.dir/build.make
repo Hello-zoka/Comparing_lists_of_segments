@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yurij/Documents/Sirius/Codstyle
+CMAKE_SOURCE_DIR = /Users/yurij/Documents/Codstyle
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/yurij/Documents/Codstyle/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Codstyle.dir/depend.make
@@ -79,55 +79,55 @@ include CMakeFiles/Codstyle.dir/flags.make
 
 CMakeFiles/Codstyle.dir/main.cpp.o: CMakeFiles/Codstyle.dir/flags.make
 CMakeFiles/Codstyle.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Codstyle.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Codstyle.dir/main.cpp.o -c /Users/yurij/Documents/Sirius/Codstyle/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yurij/Documents/Codstyle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Codstyle.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Codstyle.dir/main.cpp.o -c /Users/yurij/Documents/Codstyle/main.cpp
 
 CMakeFiles/Codstyle.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Codstyle.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yurij/Documents/Sirius/Codstyle/main.cpp > CMakeFiles/Codstyle.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yurij/Documents/Codstyle/main.cpp > CMakeFiles/Codstyle.dir/main.cpp.i
 
 CMakeFiles/Codstyle.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Codstyle.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yurij/Documents/Sirius/Codstyle/main.cpp -o CMakeFiles/Codstyle.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yurij/Documents/Codstyle/main.cpp -o CMakeFiles/Codstyle.dir/main.cpp.s
 
 CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.o: CMakeFiles/Codstyle.dir/flags.make
 CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.o: ../WorkingWithUser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.o -c /Users/yurij/Documents/Sirius/Codstyle/WorkingWithUser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yurij/Documents/Codstyle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.o -c /Users/yurij/Documents/Codstyle/WorkingWithUser.cpp
 
 CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yurij/Documents/Sirius/Codstyle/WorkingWithUser.cpp > CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yurij/Documents/Codstyle/WorkingWithUser.cpp > CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.i
 
 CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yurij/Documents/Sirius/Codstyle/WorkingWithUser.cpp -o CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yurij/Documents/Codstyle/WorkingWithUser.cpp -o CMakeFiles/Codstyle.dir/WorkingWithUser.cpp.s
 
 CMakeFiles/Codstyle.dir/Relaxing.cpp.o: CMakeFiles/Codstyle.dir/flags.make
 CMakeFiles/Codstyle.dir/Relaxing.cpp.o: ../Relaxing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Codstyle.dir/Relaxing.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Codstyle.dir/Relaxing.cpp.o -c /Users/yurij/Documents/Sirius/Codstyle/Relaxing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yurij/Documents/Codstyle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Codstyle.dir/Relaxing.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Codstyle.dir/Relaxing.cpp.o -c /Users/yurij/Documents/Codstyle/Relaxing.cpp
 
 CMakeFiles/Codstyle.dir/Relaxing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Codstyle.dir/Relaxing.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yurij/Documents/Sirius/Codstyle/Relaxing.cpp > CMakeFiles/Codstyle.dir/Relaxing.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yurij/Documents/Codstyle/Relaxing.cpp > CMakeFiles/Codstyle.dir/Relaxing.cpp.i
 
 CMakeFiles/Codstyle.dir/Relaxing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Codstyle.dir/Relaxing.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yurij/Documents/Sirius/Codstyle/Relaxing.cpp -o CMakeFiles/Codstyle.dir/Relaxing.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yurij/Documents/Codstyle/Relaxing.cpp -o CMakeFiles/Codstyle.dir/Relaxing.cpp.s
 
 CMakeFiles/Codstyle.dir/Compare.cpp.o: CMakeFiles/Codstyle.dir/flags.make
 CMakeFiles/Codstyle.dir/Compare.cpp.o: ../Compare.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Codstyle.dir/Compare.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Codstyle.dir/Compare.cpp.o -c /Users/yurij/Documents/Sirius/Codstyle/Compare.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yurij/Documents/Codstyle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Codstyle.dir/Compare.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Codstyle.dir/Compare.cpp.o -c /Users/yurij/Documents/Codstyle/Compare.cpp
 
 CMakeFiles/Codstyle.dir/Compare.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Codstyle.dir/Compare.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yurij/Documents/Sirius/Codstyle/Compare.cpp > CMakeFiles/Codstyle.dir/Compare.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yurij/Documents/Codstyle/Compare.cpp > CMakeFiles/Codstyle.dir/Compare.cpp.i
 
 CMakeFiles/Codstyle.dir/Compare.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Codstyle.dir/Compare.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yurij/Documents/Sirius/Codstyle/Compare.cpp -o CMakeFiles/Codstyle.dir/Compare.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yurij/Documents/Codstyle/Compare.cpp -o CMakeFiles/Codstyle.dir/Compare.cpp.s
 
 # Object files for target Codstyle
 Codstyle_OBJECTS = \
@@ -145,7 +145,7 @@ Codstyle: CMakeFiles/Codstyle.dir/Relaxing.cpp.o
 Codstyle: CMakeFiles/Codstyle.dir/Compare.cpp.o
 Codstyle: CMakeFiles/Codstyle.dir/build.make
 Codstyle: CMakeFiles/Codstyle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Codstyle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yurij/Documents/Codstyle/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Codstyle"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Codstyle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +158,6 @@ CMakeFiles/Codstyle.dir/clean:
 .PHONY : CMakeFiles/Codstyle.dir/clean
 
 CMakeFiles/Codstyle.dir/depend:
-	cd /Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yurij/Documents/Sirius/Codstyle /Users/yurij/Documents/Sirius/Codstyle /Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug /Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug /Users/yurij/Documents/Sirius/Codstyle/cmake-build-debug/CMakeFiles/Codstyle.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/yurij/Documents/Codstyle/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yurij/Documents/Codstyle /Users/yurij/Documents/Codstyle /Users/yurij/Documents/Codstyle/cmake-build-debug /Users/yurij/Documents/Codstyle/cmake-build-debug /Users/yurij/Documents/Codstyle/cmake-build-debug/CMakeFiles/Codstyle.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Codstyle.dir/depend
 
