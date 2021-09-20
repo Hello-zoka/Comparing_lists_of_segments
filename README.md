@@ -24,6 +24,8 @@ _**Format of input file is**:_
 
 This solution is not very fast ;(
 
+**_TODO:_**
+
 Asymptotics of second stage is O(`N ^ 3`), but we can solve it by O(`NlogN`), using sorting segments by tangent and solving standard problem of minimum covering segments for each tangent by O(`N`).
 
 Asymptotics of third stage is O(`N ^ 2`), but we can solve it by O(`NlogN`), using sorting of list of segments.
