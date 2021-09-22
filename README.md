@@ -1,7 +1,3 @@
-_**Hello! My name is Yurij Zajcev, I'm from Saint-Petersburg, Russia.**_ 
-
-First of all, I want to apologize for my terrible English, but I need to practice somewhere ;)
-
 You can find here my solution of problem: **"We have two sets of segments(with ends in integer coordinates). It must be said whether the sets of points covered by the line segments are identical or not"**
 
 In Main function you can find place to insert name of input file. 
